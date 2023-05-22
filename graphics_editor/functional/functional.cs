@@ -106,7 +106,6 @@ namespace graphics_editor
                 BorderBrush = new SolidColorBrush(Color.FromRgb(250, 250, 250)),
                 Margin = new Thickness(20, 20, 0, 0)
             };
-            //Добавление контрола tb
             canvas.Children.Add(textbox);
             //Переключение фокуса на элемент, чтоб можно было сразу ввести текст с клавиатуры
             textbox.Focus();
@@ -115,7 +114,7 @@ namespace graphics_editor
 
         private void ResizeTextBoxFont(TextBox textBox)
         {
-            double fontSize = textBox.ActualHeight * 0.6; // Задайте желаемый коэффициент масштабирования
+            double fontSize = textBox.ActualHeight * 0.6; 
 
             if (fontSize > 0)
             {
