@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:graphics_editor"
         mc:Ignorable="d"
-        Title="MainWindow" x:Name="pic" Height="552" Width="924" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
+        Title="Graphics editor" x:Name="pic" Height="552" Width="924" WindowStartupLocation="CenterScreen" ResizeMode="CanMinimize">
 
     <Grid>
         <DockPanel >
